@@ -4,7 +4,7 @@ import React from "react";
 const ProfileScreen = () => {
   return (
     <View>
-      <Text>index</Text>
+      <Text>Welcome To Profile</Text>
     </View>
   );
 };
