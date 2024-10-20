@@ -28,7 +28,7 @@ const index = () => {
   return (
     <View style={styles.container}>
       <Text className="text-2xl text-red-600 font-pblack">Aura!</Text>
-      <Link href="/profile">Profile</Link>
+      <Link href="/home">Go to Home</Link>
     </View>
   );
 };
