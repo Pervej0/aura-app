@@ -47,6 +47,52 @@ const TabsLayout = () => {
           ),
         }}
       />
+      <Tabs.Screen
+        name="create"
+        options={{
+          title: "Create",
+          headerShown: false,
+          tabBarIcon: ({ color, focused }) => (
+            <TabBarIcon
+              icon={icons.plus}
+              color={color}
+              focused={focused}
+              name="Create"
+            />
+          ),
+        }}
+      />
+
+      <Tabs.Screen
+        name="bookmark"
+        options={{
+          title: "Bookmark",
+          headerShown: false,
+          tabBarIcon: ({ color, focused }) => (
+            <TabBarIcon
+              icon={icons.bookmark}
+              color={color}
+              focused={focused}
+              name="Bookmark"
+            />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="profile"
+        options={{
+          title: "Profile",
+          headerShown: false,
+          tabBarIcon: ({ color, focused }) => (
+            <TabBarIcon
+              icon={icons.profile}
+              color={color}
+              focused={focused}
+              name="Profile"
+            />
+          ),
+        }}
+      />
     </Tabs>
   );
 };
