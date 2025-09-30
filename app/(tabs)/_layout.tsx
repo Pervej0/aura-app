@@ -66,14 +66,14 @@ const TabsLayout = () => {
       <Tabs.Screen
         name="bookmark"
         options={{
-          title: "Bookmark",
+          title: "Education",
           headerShown: false,
           tabBarIcon: ({ color, focused }) => (
             <TabBarIcon
               icon={icons.bookmark}
               color={color}
               focused={focused}
-              name="Bookmark"
+              name="Education"
             />
           ),
         }}
